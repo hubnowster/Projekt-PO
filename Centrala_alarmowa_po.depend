@@ -122,3 +122,71 @@
 	"Device.h"
 	"System.h"
 
+1465397499 source:c:\users\hubert\desktop\centrala alarmowa po - kopia\main.cpp
+	<iostream>
+	<vector>
+	"Device.h"
+	"System.h"
+
+1465402220 c:\users\hubert\desktop\centrala alarmowa po - kopia\include\device.h
+	<vector>
+	<string>
+	"System.h"
+
+1465401106 c:\users\hubert\desktop\centrala alarmowa po - kopia\include\system.h
+	<vector>
+	<string>
+	"Device.h"
+	"Commands.h"
+
+1465402220 source:c:\users\hubert\desktop\centrala alarmowa po - kopia\src\device.cpp
+	<iostream>
+	"Device.h"
+
+1465402220 c:\users\hubert\desktop\centrala alarmowa po - kopia\include\commands.h
+	<string>
+
+1465401414 source:c:\users\hubert\desktop\centrala alarmowa po - kopia\src\commands.cpp
+	"Commands.h"
+	<string>
+	<iostream>
+
+1465402010 source:c:\users\hubert\desktop\centrala alarmowa po - kopia\src\system.cpp
+	"System.h"
+	"Device.h"
+	<iostream>
+
+1465397499 source:c:\users\hubert\desktop\projekt_po_github\projekt-po\main.cpp
+	<iostream>
+	<vector>
+	"Device.h"
+	"System.h"
+
+1465402220 c:\users\hubert\desktop\projekt_po_github\projekt-po\include\device.h
+	<vector>
+	<string>
+	"System.h"
+
+1465401106 c:\users\hubert\desktop\projekt_po_github\projekt-po\include\system.h
+	<vector>
+	<string>
+	"Device.h"
+	"Commands.h"
+
+1465402220 c:\users\hubert\desktop\projekt_po_github\projekt-po\include\commands.h
+	<string>
+
+1465401414 source:c:\users\hubert\desktop\projekt_po_github\projekt-po\src\commands.cpp
+	"Commands.h"
+	<string>
+	<iostream>
+
+1465402220 source:c:\users\hubert\desktop\projekt_po_github\projekt-po\src\device.cpp
+	<iostream>
+	"Device.h"
+
+1465402010 source:c:\users\hubert\desktop\projekt_po_github\projekt-po\src\system.cpp
+	"System.h"
+	"Device.h"
+	<iostream>
+
