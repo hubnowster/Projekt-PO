@@ -23,15 +23,15 @@ void System::update(string nazwa)
 {
      cout << "Czujnik powiadamiajacy: "<<nazwa << endl;
      if (alarm_trigger == 0)
-        this->lights_on(nazwa);
+     {
+        commands.lights_on(nazwa);
+     }
      else
-        this->alarm_on(nazwa);
+     {
+        commands.alarm_on(nazwa,this->alarm);
+     }
 }
 
-void System::lights_on (string nazwa)
-{
-    cout<<"Uruchomiono swiatla poprzez "<<nazwa<<endl;
-}
 
 void System::trigger(uint8_t t)
 {
@@ -48,10 +48,4 @@ void System::trigger(uint8_t t)
 
 
 
-}
-
-void System::alarm_on (string nazwa)
-{
-    alarm= 1;
-    cout<<"Uruchomiono alarm z czujnika:  "<<nazwa<<endl;
 }

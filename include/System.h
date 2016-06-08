@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include "Device.h"
+#include "Commands.h"
 using namespace std;
 class Device;
 class System
@@ -10,7 +11,7 @@ class System
     public:
         //Device * wskaznik_na_czujnik;
         System();
-        //Commands commands;
+        Commands commands;
         virtual ~System();
         void update(string nazwa);
         //void notify(string sender, string command, string args);

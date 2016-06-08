@@ -53,10 +53,7 @@ Czujnik_dymu::~Czujnik_dymu()
 {
     cout << "dtor Czujnik_dymu";
 } */
-void Czujnik_ruchu::on()
-{
-    cout << "Czujnik_ruchu wlaczony";
-}
+
 
 
 void Czujnik_ruchu::notify()

@@ -16,13 +16,6 @@ class Device
         virtual void attach(System *obserwator) = 0;
         virtual string get_nazwa();
         vector < System*> views;
-        //int zmiana;
-    protected:
-        virtual void on() = 0;
-        //virtual void off() = 0;
-
-
-    private:
 
 };
 
@@ -38,9 +31,6 @@ class Czujnik_ruchu: public Device
         void notify();
         void attach(System* obserwator);
         string get_nazwa();
-    protected:
-        void on();
-        // void off();
 
 
 
