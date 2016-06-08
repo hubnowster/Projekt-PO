@@ -1,0 +1,124 @@
+# depslib dependency file v1.0
+1465345316 source:c:\users\patus\desktop\dupa\projekt_dupa\main.cpp
+	<iostream>
+	"Device.h"
+	"System.h"
+
+1465345968 c:\users\patus\desktop\dupa\projekt_dupa\include\device.h
+	<vector>
+	<string>
+	"System.h"
+
+1465345181 c:\users\patus\desktop\dupa\projekt_dupa\include\system.h
+	<vector>
+	<string>
+	"Device.h"
+
+1465332175 source:c:\users\patus\desktop\dupa\projekt_dupa\src\commands.cpp
+	"Commands.h"
+
+1465332266 c:\users\patus\desktop\dupa\projekt_dupa\include\commands.h
+
+1465345704 source:c:\users\patus\desktop\dupa\projekt_dupa\src\device.cpp
+	<iostream>
+	"Device.h"
+
+1465344284 source:c:\users\patus\desktop\dupa\projekt_dupa\src\system.cpp
+	"System.h"
+	"Device.h"
+	<iostream>
+
+1465332175 source:c:\users\patus\desktop\dupa - kopia (2) - kopia\projekt_dupa\src\commands.cpp
+	"Commands.h"
+
+1465332266 c:\users\patus\desktop\dupa - kopia (2) - kopia\projekt_dupa\include\commands.h
+
+1465350539 source:c:\users\patus\desktop\dupa - kopia (2) - kopia\projekt_dupa\src\system.cpp
+	"System.h"
+	"Device.h"
+	<iostream>
+
+1465349517 c:\users\patus\desktop\dupa - kopia (2) - kopia\projekt_dupa\include\system.h
+	<vector>
+	<string>
+	"Device.h"
+
+1465351103 c:\users\patus\desktop\dupa - kopia (2) - kopia\projekt_dupa\include\device.h
+	<vector>
+	<string>
+	"System.h"
+
+1465337259 source:c:\users\patus\desktop\dupa - kopia (2) - kopia\projekt_dupa\tester.cpp
+	<iostream>
+	<vector>
+
+1465350327 source:c:\users\patus\desktop\dupa - kopia (2) - kopia\projekt_dupa\main.cpp
+	<iostream>
+	<vector>
+	"Device.h"
+	"System.h"
+
+1465351193 source:c:\users\patus\desktop\dupa - kopia (2) - kopia\projekt_dupa\src\device.cpp
+	<iostream>
+	"Device.h"
+
+1465332175 source:c:\users\hubert\desktop\dupa - kopia (2) - kopia\dupa - kopia (2) - kopia\projekt_dupa\src\commands.cpp
+	"Commands.h"
+
+1465332266 c:\users\hubert\desktop\dupa - kopia (2) - kopia\dupa - kopia (2) - kopia\projekt_dupa\include\commands.h
+
+1465381732 source:c:\users\hubert\desktop\dupa - kopia (2) - kopia\dupa - kopia (2) - kopia\projekt_dupa\src\device.cpp
+	<iostream>
+	"Device.h"
+
+1465381127 c:\users\hubert\desktop\dupa - kopia (2) - kopia\dupa - kopia (2) - kopia\projekt_dupa\include\device.h
+	<vector>
+	<string>
+	"System.h"
+
+1465381640 c:\users\hubert\desktop\dupa - kopia (2) - kopia\dupa - kopia (2) - kopia\projekt_dupa\include\system.h
+	<vector>
+	<string>
+	"Device.h"
+
+1465381625 source:c:\users\hubert\desktop\dupa - kopia (2) - kopia\dupa - kopia (2) - kopia\projekt_dupa\src\system.cpp
+	"System.h"
+	"Device.h"
+	<iostream>
+
+1465382084 source:c:\users\hubert\desktop\dupa - kopia (2) - kopia\dupa - kopia (2) - kopia\projekt_dupa\main.cpp
+	<iostream>
+	<vector>
+	"Device.h"
+	"System.h"
+
+1465332175 source:c:\users\hubert\desktop\centrala alarmowa po\src\commands.cpp
+	"Commands.h"
+
+1465332266 c:\users\hubert\desktop\centrala alarmowa po\include\commands.h
+
+1465381732 source:c:\users\hubert\desktop\centrala alarmowa po\src\device.cpp
+	<iostream>
+	"Device.h"
+
+1465381127 c:\users\hubert\desktop\centrala alarmowa po\include\device.h
+	<vector>
+	<string>
+	"System.h"
+
+1465381640 c:\users\hubert\desktop\centrala alarmowa po\include\system.h
+	<vector>
+	<string>
+	"Device.h"
+
+1465389850 source:c:\users\hubert\desktop\centrala alarmowa po\src\system.cpp
+	"System.h"
+	"Device.h"
+	<iostream>
+
+1465389933 source:c:\users\hubert\desktop\centrala alarmowa po\main.cpp
+	<iostream>
+	<vector>
+	"Device.h"
+	"System.h"
+
