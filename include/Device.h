@@ -14,13 +14,13 @@ class Device
         virtual ~Device();
         virtual void notify() = 0; // to s³u¿y równie¿ jako powiadomienie systemu, ¿e coœ jest wykryte
         virtual void attach(System *obserwator) = 0;
-            //views.push_back(obserwator);
-        virtual void wyswietl();
         virtual string get_nazwa();
+        vector < System*> views;
+        //int zmiana;
     protected:
         virtual void on() = 0;
         //virtual void off() = 0;
-        vector < System * > views;
+
 
     private:
 
@@ -31,17 +31,19 @@ class Czujnik_ruchu: public Device
     public:
         //Czujnik_ruchu (System* sys, string nazwa) : Device (sys, nazwa){}
         //using Device :: Device;
-        Czujnik_ruchu ();
         string nazwa;
+        Czujnik_ruchu ();
         Czujnik_ruchu(System* sys, string nazwa);
         virtual ~Czujnik_ruchu();
         void notify();
-        void attach(System *obserwator);
-        void wyswietl();
+        void attach(System* obserwator);
         string get_nazwa();
     protected:
         void on();
-       // void off();
+        // void off();
+
+
+
 };
 
 /*

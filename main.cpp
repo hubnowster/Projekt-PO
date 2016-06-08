@@ -8,16 +8,18 @@ using namespace std;
 
 int main()
 {
-
+    Czujnik_ruchu* Czujnik1;
+    Czujnik_ruchu* Czujnik2;
     System potezny_system;
-    System *wsk = &potezny_system;
-    string manhattan1 ="23";
-    string manhattan2 ="43";
-    string manhattan3 ="55";
-    potezny_system.zarejestruj_czujnik(new Czujnik_ruchu(&potezny_system,manhattan1));
-    potezny_system.zarejestruj_czujnik(new Czujnik_ruchu(&potezny_system,manhattan2));
-    //cout<<"Czujnik "<<potezny_system.devices.at(0)->nazwa<<endl;
-    //czujnik_ruchu.attach(potezny_system)
+    string manhattan1 ="Czujnik Kuchnia";
+    string manhattan2 ="Czujnik Salon";
+    string manhattan3 ="Czujnik Lazienka";
+    potezny_system.zarejestruj_czujnik(Czujnik1=new Czujnik_ruchu(&potezny_system,manhattan1));
+    potezny_system.zarejestruj_czujnik(Czujnik2=new Czujnik_ruchu(&potezny_system,manhattan2));
+    Czujnik1->attach(&potezny_system);
+    Czujnik2->attach(&potezny_system);
+    Czujnik1->notify();
+    Czujnik2->notify();
 
 
 

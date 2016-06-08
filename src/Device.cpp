@@ -1,5 +1,4 @@
 #include <iostream>
-//#include "System.h"
 #include "Device.h"
 using namespace std;
 
@@ -17,14 +16,14 @@ Device::~Device()
     cout << "Dtor device\n";
 }
 
-void Device::wyswietl()
-{
-    cout<<"Naazwa: "<<nazwa<<endl;
-}
-
 string Device::get_nazwa()
 {
     return nazwa;
+}
+
+void Device::attach(System *obserwator)
+{
+
 }
 
 Czujnik_ruchu::Czujnik_ruchu()
@@ -40,10 +39,6 @@ Czujnik_ruchu::~Czujnik_ruchu()
     cout << "Dtor Czujnik_ruchu\n";
 }
 
-void Czujnik_ruchu::wyswietl()
-{
-    cout<<"Naazwa_wys: "<<nazwa<<endl;
-}
 
 string Czujnik_ruchu::get_nazwa()
 {
@@ -63,16 +58,18 @@ void Czujnik_ruchu::on()
     cout << "Czujnik_ruchu wlaczony";
 }
 
-void Device::attach(System *obserwator)
-{
 
-}
 void Czujnik_ruchu::notify()
 {
     for (int i = 0; i < views.size(); i++)
-        views[i]->update();
+    {
+        views[i]->update(this->nazwa);
+    }
+
 }
 void Czujnik_ruchu::attach(System *obserwator)
 {
     views.push_back(obserwator);
+    cout<<"Od teraz System obserwuje czujnik - "<<this->get_nazwa()<<endl;
+
 }
